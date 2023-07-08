@@ -185,5 +185,3 @@ def create_discriminator(input_channels=INPUT_SHAPE, output_channels=OUTPUT_SHAP
 
     return tf.keras.Model(inputs=[inp, tar], outputs=last)
 
-if __name__ == "__main__":
-    main()
